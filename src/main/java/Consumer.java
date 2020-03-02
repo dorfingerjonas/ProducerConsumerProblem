@@ -20,7 +20,7 @@ public class Consumer extends Thread {
 
             try {
                 // Consumption of something from the pool needs some time
-                sleep((int) (Math.random() * 200)); // production needs some time
+                sleep((int) (Math.random() * 200)); // production needs some time                
             } catch (InterruptedException e) {
             }
 

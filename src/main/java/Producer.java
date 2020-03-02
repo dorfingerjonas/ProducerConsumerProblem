@@ -1,4 +1,4 @@
-class Producer extends Thread {
+public class Producer extends Thread {
 
     private final MessagePool _messagePool;
     private String _producerName;
